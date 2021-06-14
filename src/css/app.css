@@ -1,0 +1,25 @@
+@import-normalize;
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 24px;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
+
+@import "button.css";
+@import "recipe-list.css";
+@import "recipe.css";
+@import "ingredient-list.css"
+
